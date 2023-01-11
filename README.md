@@ -1,4 +1,6 @@
 # PHYS-359-Winter-2023
+![Project description](https://img.shields.io/badge/classwork-shared%20scripts%20-blue)
+
 A repository for students taking PHYS 359 in Winter 2023 to share code used for numerical calculations
 
 ## Instructions on setting up a local repository
@@ -90,3 +92,15 @@ A repository for students taking PHYS 359 in Winter 2023 to share code used for 
     ```
     
 11. Lastly, to merge your branch with the master branch, create a pull request. Title your pull request and add a description that explains what has been modified and what you would like people to look over. Add someone as your reviewer and make the pull request. The reviewer will look over your code and makes comments inquiring about your code or making helpful suggestions. If the reviewer requires a change be made, make the required change on your local repository and push the changes. The pull request will always switch to the most up-to-date commit of your branch. When the reviewer is satisfied, they will approve the change. You may have compatability issues between your branch and the master branch. If that is the case, GitHub has the ability to open the files with conflicts and you can make your changes there. Alternatively, your local repository files will be edited to show where the conflicts are, and using an editor, particularly one with git compatability (e.g. PyCharm, VSCode, VS), you can resolve the conflicts on your local repo and push the changes; this is the preferred method. Once all conflicts are resolved, you can merge your branch with the master branch.
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+```
+Copyright (C) 2023 (Jack) Kuei Hung Zhang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
