@@ -1,5 +1,5 @@
 from concurrent.futures import ThreadPoolExecutor
-from numba import njit, prange
+from numba import njit
 from numpy import array, empty, exp
 
 
@@ -17,7 +17,7 @@ def partition_function(beta_epsilon: float) -> float:
 
     # Initialize values of the array
     for row, value in enumerate(summand_values):
-        summand_values[row] = (2*row + 1) * exp(-beta_epsilon*row*(row+1))
+        summand_values[row] = (2 * row + 1) * exp(-beta_epsilon * row * (row + 1))
 
     # Calculate the value of the partition function
     Z = sum(summand_values)
